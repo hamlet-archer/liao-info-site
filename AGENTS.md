@@ -27,5 +27,17 @@ asking Kelvin a workspace-shaped question, look there:
   is `mint.py rotate <item-id>`.
 - **Tickets and workflow:** `docs/workflow.md`. **Live rules:**
   `python3 scripts/atlas.py decisions` — one sentence each.
+
+## Drafting for Kelvin
+
+- **A draft comes back in chat, never into a tool.** An email, message or post
+  Kelvin asks you to draft is returned in the reply, where he can revise it.
+  Never create it as a Gmail draft, a Slack draft, or anything else that
+  persists — every one of those leaves a duplicate he has to clean up. Put it in
+  the tool only when he asks for it to be saved or sent.
+- **Short and direct.** Say the thing, ask the question, stop. No preamble, no
+  recap of what the recipient already knows, no closing paragraph restating the
+  ask. His outgoing mail is a few lines; match it.
+
 <!-- atlas:pointer:end -->
 
