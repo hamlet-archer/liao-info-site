@@ -1,0 +1,7 @@
+# Cloudflare Pages (git-connected project `liao-info-site`). The site files
+# live in public/ so the repo root is not the upload: with the root as the
+# output directory, AGENTS.md was served publicly at liao.info/AGENTS.md.
+# Same fix as bridgeheadfairchild-site. Pages reads the output directory from
+# this file, overriding the dashboard's build settings.
+name = "liao-info-site"
+pages_build_output_dir = "./public"
