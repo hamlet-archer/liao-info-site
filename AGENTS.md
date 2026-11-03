@@ -25,6 +25,10 @@ asking Kelvin a workspace-shaped question, look there:
   unregistered (atlas ADR 0030). `mint.py --vendors` says which vendors it can
   mint for and, for the ones it cannot, why and what to do instead. Rotation
   is `mint.py rotate <item-id>`.
+- **In a cloud session** (no `op`, the workspace's own hosts refused): that
+  wall is deliberate. Workspace state reaches you only as the mirrors in
+  `registry/platform.yaml` (`mirrors:`) — JSON on GitHub. Quote each fact's
+  `as_of`; a fact with no mirror is unknown, never a fixture or a guess.
 - **Tickets and workflow:** `docs/workflow.md`. **Live rules:**
   `python3 scripts/atlas.py decisions` — one sentence each.
 
